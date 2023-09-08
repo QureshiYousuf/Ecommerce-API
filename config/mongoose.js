@@ -5,8 +5,6 @@ mongoose.connect('mongodb+srv://yousuf337692qureshi:bH764IQfTC3MYtbK@cluster0.cv
     useNewUrlParser: true
 });
 
-// mongodb+srv://soumyasri2245:Soumya22%4034@cluster0.u2ywt3o.mongodb.net/?retryWrites=true&w=majority
-
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, "Error connecting to MongoDB"));
