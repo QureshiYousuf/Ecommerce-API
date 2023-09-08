@@ -1,7 +1,11 @@
+<div align="center">
+
 # Ecommerce-API
 
 ## 📜 Description:
 This is an E-commerce API that allow to create, delete & update a product which is made using Node.Js & MongoDB. 
+
+</div>
 
 ### 🔗 Link of Our CSV-Upload website: https://ecommerce-api-km88.onrender.com/products
 
@@ -29,7 +33,7 @@ This is an E-commerce API that allow to create, delete & update a product which 
 ## 💥 STEPS TO CREATE A NEW PRODUCT: 
 1) start the server using `npm start`
 2) Open postman
-3) put **localhost:3000/products/create** as the url. 
+3) Add **localhost:3000/products/create** as the url. 
   ```bash
     http://localhost:3000/products/create
   ```
@@ -43,8 +47,8 @@ This is an E-commerce API that allow to create, delete & update a product which 
   ```
 
 ## 💥 STEPS TO DELETE A PRODUCT:
-1) copy the object id of the product you want to delete.
-2) add the id after **localhost:3000/products/**
+1) Copy the object id of the product you want to delete.
+2) Add the id after **localhost:3000/products/**
 3) Make a DELETE request.
 4) You will recieve a message saying deleted successfully.
 
@@ -52,7 +56,7 @@ This is an E-commerce API that allow to create, delete & update a product which 
 1) Copy the object id of the product whose quantity you want to update
 2) Put the id after **localhost:3000/products/**
 3) After putting the id add **/update_quantity/?number={x}** in the url where x is the number by which you want to increase or decrease the quantity.
-4) the url should be looking like **localhost:3000/products/{id}/update_quantity/?number={x}**
+4) The url should be looking like **localhost:3000/products/{id}/update_quantity/?number={x}**
 5) Make a POST request and you should get a message containing the update product
 
 
